@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 400px;
+            margin: 10px;
+            border: 10px solid orange;
+        }
+        .background-color{
+            background-color: rgb(73, 196, 54);
+        }
+        .background-img{
+            background-image: url(https://picsum.photos/id/137/200/300);
+        }
+        .background-repeat{
+            background-image: url(https://picsum.photos/id/137/200/300);
+            background-repeat: no-repeat;
+            /* background-repeat:repeat-x;
+            background-repeat:repeat-y; */
+        }
+        .background-attachment{
+            background-image: url(https://picsum.photos/id/137/200/300);
+            background-attachment: fixed;
+        }
+        .background-position{
+            background-image: url(https://picsum.photos/id/137/200/300);
+            background-repeat: no-repeat;
+            /* background-position: center;
+            background-position: left;
+            background-position: right; */
+            background-position: 520px;
+        }
+        .background-size{
+            background-image: url(https://picsum.photos/id/137/1000/300);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-size: cover;
+        }
+        .background-clip{
+            /* padding: 30px; */
+            border: 20px solid orange;
+            background-image: url(https://picsum.photos/id/137/200/300);
+            background-repeat: no-repeat;
+            /* background-clip: content-box; */
+            background-clip: padding-box;
+            /* background-clip: border-box; */
+            
+        }
+        .star{
+            background-color: red;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+        .background{
+            /* background-image: ;
+            background-color: ; */
+            background: url(https://picsum.photos/id/137/200/300);
+        }
+        .background-flag{
+            background: linear-gradient(25deg , orange , white , green);
+            /* background: url(https://picsum.photos/id/137/200/300); */
+        }
+    </style>
+</head>
+<body>
+    
+
+    <ul>
+        <li>background-color</li>
+        <li>background-img</li>
+        <li>background-repeat</li>
+        <li>background-attachment</li>
+        <li>background-position</li>
+        <li>background-size</li>
+        <li>background-clip</li>
+        <li>background</li>
+        <li>background-flag</li>
+    </ul>
+
+
+    <!-- <img src="https://picsum.photos/id/137/200/300" alt=""> -->
+    <div class="background-color">background-color </div>
+    <div class="background-img">background-img</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-position">background-position</div>
+    <div class="background-size">background-size</div>
+    <div class="background-clip">background-clip</div>
+    <div class="star"></div>
+    <div class="background">background</div>
+    <div class="background-flag">background-flag</div>
+    <div></div>
+
+</body>
+</html>
