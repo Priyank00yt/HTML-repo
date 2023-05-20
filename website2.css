@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  header {
+    height: 40px;
+    background-color: #fb0c0c;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .logo {
+    float: left;
+    width: 50px;
+  }
+  
+  nav {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .search {
+    margin-left: 20px;
+  }
+  
+  .search form {
+    display: flex;
+  }
+  
+  .search input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+  }
+
+
+  .search button i {
+    font-size: 16px;
+  }
+
+  .search button {
+    padding: 8px;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  
+  }
+  li.search{
+    
+  }
