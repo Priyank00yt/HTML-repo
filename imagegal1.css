@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav {
   background-color: #8653f6;
   padding: 10px;
@@ -32,4 +33,40 @@ nav {
   }
   
   
+=======
+nav {
+  background-color: #8653f6;
+  padding: 10px;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+.gallery {
+  background-color: rgb(173, 245, 173);
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+>>>>>>> 9167b1b9631997ec2c0652d4d333149866cf203f
   
