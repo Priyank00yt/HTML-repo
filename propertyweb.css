@@ -1,0 +1,45 @@
+.navbar {
+    background-color: red;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    font-style: bold;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+    background-color: rgb(63, 26, 248);
+}
+
+.navbar img {
+    height: 50px;
+    margin: 10px;
+}
+
+.navbar form {
+    float: right;
+    margin-top: 18px;
+}
+
+.navbar input[type="text"] {
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+  }
+
+  .navbar button[type="submit"] {
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #010101;
+    color: rgb(246, 242, 144);
+    font-size: 14px;
+    cursor: pointer;
+  }

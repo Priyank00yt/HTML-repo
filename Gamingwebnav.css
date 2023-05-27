@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b3a7a7;
+    padding: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+  }
+  
+  .logo .red {
+    color: #ff0000;
+  }
+  
+  .logo .orange {
+    color: #ffa500;
+  }
+  
+  .logo .yellow {
+    color: #ffff00;
+  }
+  
+  .logo .green {
+    color: #008000;
+  }
+  
+  .logo .blue {
+    color: #0000ff;
+  }
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: dashed;
+    color: rgb(148, 11, 246);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #56f521;
+  }
