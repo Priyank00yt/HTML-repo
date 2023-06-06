@@ -1,0 +1,481 @@
+/* -------------------------------------------------sec-first-start-----------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 1300px;
+    margin: 0 auto;
+}
+.col-30 {
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    /* opacity: 0.7; */
+    /* line-height: 25px; */
+}
+.row {
+    display: flex;
+}
+.jcs{
+    justify-content: space-between;    
+}
+
+
+/* ---------------------------------------sec-one-start------------------------------------------------------ */
+
+.sec-1 {
+    background-image: url(./img/Titlepik.png);
+    /* height: 800px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    width: 50%
+}
+header {
+    background-color: black;
+}
+.logo {
+    width: 100px;
+}
+.logo img {
+    width: 100%;
+    /* vertical-align: middle; */
+}
+.navbar {
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+    line-height: 20px;
+    /* font-family: ; */
+}
+.align-c{
+    align-items: center;
+}
+.links ul li {
+    display: inline-block;
+    /* margin: 20px; */
+}
+.links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.icon {
+    color: white;
+    font-size: 30px;
+}
+.sec-1-text {
+    margin: 100px 0 0 0;
+    padding: 100px 0 0 0;
+}
+.sec-1-pri-text {
+    padding: 80px 0;
+}
+.sec-1-pri-text h1 {
+    font-size: 60px;
+    color: white;
+    margin: 0 0 6px 0;
+}
+.sec-1-pri-text p {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    line-height: 25px;
+}
+.sec-1-pri-text button {
+    /* border-radius: 4px; */
+    background-color: #e8631c;
+    margin: 0 0 10px 0;
+    padding: 12px 45px;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+
+/* --------------------------------------------------sec-two-strart------------------------------------------------------- */
+
+.sec-two {
+    background-color: #e8631c;
+    /* height: 800px; */
+}
+.sec-two-text h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+.sec-two-text p {
+    font-size: 30px;
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 60px 0 40px 0; */
+}
+.cart {
+    padding: 100px 0;
+    width: 100%;
+}
+.cart-bg img {
+    width: 100%;
+}
+.cart h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin: 10px 0;
+}
+.cart-bg p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+.cart-bg {
+    background-color: #303030;
+    margin: 0 20px 0 20px;
+    width: 100%;
+}
+
+/* ----------------------------------------------------sec-three-start------------------------------------------------ */
+
+.sec-three {
+    background-color: #303030;
+    /* height: 800px; */
+}
+.sec-three-text h1 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+.sec-three-text p {
+    font-size: 30px;
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 60px 0 40px 0; */
+}
+
+.sec-three-cart h1 {
+    font-size: 37px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 600;
+font-family: "Oswald";
+text-align: center;
+}
+
+
+.sec-three-cart {
+    padding: 100px 0;
+    width: 100%;
+}
+.sec-three-cart-bg img {
+    width: 30%;
+    margin: 20px auto;
+    display: block;
+    /* padding: 200px 0 10ox 0; */
+}
+.sec-three-cart h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 30px 0 20px 0;
+}
+.sec-three-cart-bg p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+.sec-three-cart-bg {
+    background-color: #e8631c;
+    margin: 0 20px 0 20px;
+    width: 100%;
+    text-align: center;
+
+}
+.sec-three-btn button {
+    background-color: #303030;
+    border: none;
+    padding: 10px 93px 20px 100px;
+    margin: 20px auto 20px 0px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+/* ------------------------------------sec-four-start----------------------------------------------------------- */
+.sec-four{
+    background-color: #e8631c;
+}
+.col-50{
+    width: 50%
+}
+.my-col-50-img img{
+    width: 100%;
+}
+
+.sec-four-text h2{
+    font-size: 50px;
+    color: white;
+    /* text-align: center; */
+    margin: 0 0 40px 60px;
+}
+.sec-four-text{
+    padding: 100px 0;
+}
+.sec-four-text p{
+    width: 80%;
+    text-align: center;
+    font-size:20px ;
+    color: white;
+    margin: 0 auto;
+    text-align:left;
+    padding-left: 0 100px;
+}
+
+
+.sec-four-text button{
+    margin: 40px 0 10px 60px;
+    background-color: #303030;
+    border-radius: 4px;
+    padding: 10px 40px;
+    color: #ffffff;
+    display: block;
+    font-family: "Oswald";
+}
+ 
+
+
+
+/* --------------------------------------------sec-five-start---------------------------------------------------- */
+
+.sec-five{
+    background-color: #e8631c;
+}
+.my-col-50-img img{
+    width: 100%;
+    display: block;
+}
+.sec-five-text h2{
+    font-size: 50px;
+    color: white;
+    margin: 0 0 40px 60px;
+}
+.sec-five-text{
+    padding: 0 100px;
+}
+.sec-five-text p{
+    width: 80%;
+    text-align: center;
+    font-size:20px ;
+    color: white;
+    margin: 0 auto;
+    text-align:left;
+    padding-left: 0 100px;
+}
+.sec-five-text button{
+    margin: 40px 0 10px 60px;
+    background-color: #303030;
+    border-radius: 4px;
+    padding: 10px 40px;
+    color: #ffffff;
+    display: block;
+    border: none;
+    font-family: "Oswald";
+}
+/* ----------------------------------------------sec-six-start--------------------------------------------------- */
+
+.sec-six {
+    background-color: #303030;
+    /* height: 800px; */
+}
+
+.sec-six-text h1 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 30px 0 60px 0;
+}
+
+.sec-six-text p {
+    font-size: 30px;
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 60px 0 40px 0; */
+}
+
+.sec-six-cart {
+    padding: 100px 0;
+    width: 100%;
+}
+
+.sec-six-cart-bg img {
+    width: 30%;
+    margin: 20px auto;
+    display: block;
+    /* padding: 200px 0 10ox 0; */
+}
+
+.sec-six-cart h1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin: 30px 0 20px 0;
+    font-family: "Oswald";
+}
+
+.sec-six-cart-bg h2 {
+    /* width: 100%; */
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 10px 0;
+}
+
+.sec-six-cart-bg {
+    background-color: #303030;
+    margin: 0 20px 0 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/*- --------------------------------sec-seven-start------------------------------------------------*/
+.sec-seven {
+    background-image: url(./img/Grimage.png);
+    /* height: 800px; */
+}
+.bg-color{
+    background-color: #f5463989;
+}
+
+.sec-seven-text p{
+    font-size: 40px;
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+.sec-seven-p{
+    padding: 100px 0 0 0;
+    
+}
+.sec-seven-p p{
+    padding-top: 100px 0 100px 0;
+    margin-top:100px ;
+}
+.sec-seven-text h1{
+    padding: 60Px auto 100px 0;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+.sec-seven-h1{
+    padding-bottom: 100px;
+}
+.sec-seven-h1 h1{
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* ----------------------------------------------sec-eight-start------------------------------------------------- */
+
+.sec-eight{
+    /* height: 800px; */
+    background-color: #e8631c;
+    overflow: hidden;
+} 
+.sec-eight h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.sec-eight p{
+    margin:0 auto;
+    color: #ffffff;
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+
+}
+.sec-eight-input-field{
+    margin: 0 auto;
+    display: block;
+     align-items: center;  
+    text-align: center;
+    padding: 50px 0;
+}
+.sec-eight-input-field input{
+   width: 500px;
+   padding: 15px 20px;
+   border: none;
+   outline: none;
+
+}
+.sec-eight-input-field button{
+    margin: 0 0 0 -5px;
+    width: 150px;
+    padding: 16px 20px;
+    color: white;
+    border: none;
+    background-color:black;
+}
+
+/* ----------------------------------------------sec-nine-start-------------------------------------------------- */
+
+.sec-nine {
+    background-color: #303030;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.sec-nine-text {
+    color: white;
+}
+
+.sec-nine-text h3 {
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    padding: 30px 0;
+}
+
+.sec-nine-text p {
+    font-size: 20px;
+    width: 70%;
+    opacity: 70%;
+}
+
+.cart2 {
+    padding: 0 30px;
+}
+
+.cart2 ul li {
+    text-decoration: none;
+    display: flex;
+    opacity: 80%;
+}
+
+.icon {
+    font-size: 30px;
+    gap: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
