@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration Form</title>
+    <link rel="icon" href="E:\Downloads\89925_WEB-SERIES.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-field" placeholder="Enter your name">
+
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" class="form-field" placeholder="Enter your mobile number">
+          
+            <label for="City">City:</label>
+            <input type="text" id="City" class="form-field" placeholder="Enter your City">
+          
+            <label for="Pincode">Pincode:</label>
+            <input type="text" id="Pincode" class="form-field" placeholder="Enter your Pincode">
+          
+            <label for="address">Address:</label>
+            <input type="text" id="address" class="form-field" placeholder="Enter your address">
+            
+
+            <button type="button" onclick="validateForm()">Submit</button>
+        </form>
+    </div>
+
+    <script src="validation.js"></script>
+</body>
+</html>
